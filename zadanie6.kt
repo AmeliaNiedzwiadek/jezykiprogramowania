@@ -7,10 +7,10 @@
 fun komplement(dna: String): String {
     var wynik = ""
     for (znak in dna) {
-        if (znak == 'A') wynik += 'T'         // A → T
-        else if (znak == 'T') wynik += 'A'    // T → A
-        else if (znak == 'C') wynik += 'G'    // C → G
-        else if (znak == 'G') wynik += 'C'    // G → C
+        if (znak == 'A') wynik += 'T'        
+        else if (znak == 'T') wynik += 'A'    
+        else if (znak == 'C') wynik += 'G'    
+        else if (znak == 'G') wynik += 'C'    
         else throw IllegalArgumentException("Nieprawidłowy znak: $znak")
 
     }
