@@ -7,7 +7,7 @@
 fun komplement(dna: String): String {
     var wynik = ""
     for (znak in dna) {
-        if (znak == 'A') wynik += 'T'        
+        if (znak == 'A') wynik += 'T'       
         else if (znak == 'T') wynik += 'A'    
         else if (znak == 'C') wynik += 'G'    
         else if (znak == 'G') wynik += 'C'    
